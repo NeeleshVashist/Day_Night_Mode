@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Day Night Mode</string>
+    <string name="day">Day Mode</string>
+    <string name="night">Night Mode</string>
+    <string name="btntoggle">Enable Dark Mode</string>
+    <string name="abc">ABC</string>
+    <string name="choose_theme_text">Choose your Theme!</string>
+    <string name="disable_dark_mode">Disable Dark Mode</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+</resources>

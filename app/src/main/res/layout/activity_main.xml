@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/firstbtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/btnClear"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/abc"
+        android:textColor="@color/clearText"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btntoggle"
+        app:layout_constraintEnd_toStartOf="@+id/secondbtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/secondbtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/btnSimple"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/abc"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btntoggle"
+        app:layout_constraintEnd_toStartOf="@+id/thirdbtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/firstbtn" />
+
+    <Button
+        android:id="@+id/thirdbtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/btnEqualGreen"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/abc"
+        android:textColor="@color/textColorWhite"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btntoggle"
+        app:layout_constraintEnd_toStartOf="@+id/fouthbtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/secondbtn" />
+
+    <Button
+        android:id="@+id/fouthbtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/colorTint"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/abc"
+        android:textColor="@color/textColorWhite"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btntoggle"
+        app:layout_constraintEnd_toStartOf="@+id/fifthbtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/thirdbtn" />
+
+    <Button
+        android:id="@+id/fifthbtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/btnSpecialOrange"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/abc"
+        android:textColor="@color/textColorWhite"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btntoggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fouthbtn" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/mainTextColor"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/subheading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/subheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:textColor="@color/subTextColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btntoggle"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="208dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/btnColorDay"
+        android:text="@string/btntoggle"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

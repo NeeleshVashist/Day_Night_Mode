@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFA726</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="btnColorDay">#FFA726</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#17181A</color>
+    <color name="btnSimple">#222427</color>
+    <color name="btnSpecialOrange">#FF9500</color>
+    <color name="btnEqualGreen">#2EC973</color>
+    <color name="btnClear">#2D191E</color>
+    <color name="clearText">#DF3F48</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="colorTint">#09C6F9</color>
+    <color name="mainTextColor">#FBFBFB</color>
+    <color name="subTextColor">#77787A</color>
+</resources>
